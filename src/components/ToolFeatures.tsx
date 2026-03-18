@@ -2,11 +2,11 @@ import { FileImage, Palette, RectangleHorizontal, MonitorUp, Sparkles, Gift } fr
 
 const features = [
   { icon: FileImage, text: "Supports JPG, JPEG, PNG, and WEBP uploads up to 32 MB." },
-  { icon: Palette, text: "Choose from styles such as Ghibli, Pixel, Realistic, Ink Wash, Cartoon, Retro, Cute, and Minimal." },
-  { icon: RectangleHorizontal, text: "Available aspect ratios include Auto, 1:1, 16:9, 9:16, 4:3, 3:4, 2:3, 3:2, 5:4, and 4:5." },
+  { icon: Palette, text: "Remove backgrounds from cartoon portraits and other images automatically." },
+  { icon: RectangleHorizontal, text: "Export with transparent or white backgrounds in PNG format." },
   { icon: MonitorUp, text: "Output resolutions include 1 MP, 2 MP, and 4 MP." },
-  { icon: Sparkles, text: "Custom prompts can be used to guide image style and mood." },
-  { icon: Gift, text: "Claim 60 free credits daily — each generation costs 10 credits." },
+  { icon: Sparkles, text: "Preserves fine details like hair edges and complex outlines." },
+  { icon: Gift, text: "Claim 60 free credits daily — each background removal costs 10 credits." },
 ];
 
 export function ToolFeatures() {
@@ -14,7 +14,7 @@ export function ToolFeatures() {
     <section className="py-10 md:py-16 border-b border-border/50" aria-labelledby="tool-features-title">
       <div className="container px-4 md:px-8 max-w-4xl">
         <h2 id="tool-features-title" className="text-xl md:text-2xl font-bold text-title text-center mb-6 md:mb-10">
-          AI Photo to Cartoon — Tool Features
+          Free AI Background Remover — Tool Features
         </h2>
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
           {features.map((f, i) => (

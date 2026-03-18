@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { User, PawPrint, Mountain, ChevronRight } from "lucide-react";
+import { ImageOff, Square, Layers, ChevronRight } from "lucide-react";
 import landscapeBefore from "@/assets/landscape-before.jpg";
 import landscapeAfter from "@/assets/landscape-after.jpg";
 import petBefore from "@/assets/pet-before.jpg";
@@ -10,38 +10,39 @@ import { AutoComparisonSlider } from "@/components/AutoComparisonSlider";
 
 const sections = [
   {
-    icon: User,
-    title: "AI Portrait to Cartoon — Turn Selfies into Cartoon Avatars",
-    subtitle: "Transform your selfies into unique cartoon avatars",
+    icon: ImageOff,
+    title: "Easy Background Removal",
+    subtitle: "Effortlessly remove backgrounds with this free AI tool",
     image: null,
     comparison: { before: portraitBefore, after: portraitAfter },
-    imageAlt: "Young woman's selfie transformed into a colorful cartoon avatar using AI Photo to Cartoon",
+    imageAlt: "Cartoon portrait with background removed using free AI background remover",
     paragraphs: [
-      "Create a cartoon portrait with AI Photo to Cartoon by uploading a clear photo. This tool converts your portrait into a charming cartoon avatar that highlights your unique features. Choose a style and enjoy a personalized image suitable for social media or gifts. Explore AI Photo to Cartoon to see your portrait in a new way.",
+      "This free AI background remover lets you upload images with a cartoon effect and isolate the subject efficiently. It simplifies editing by removing backgrounds in just a few steps.",
+      "Using this free AI background remover, you can focus on your cartoon portrait and create clean visuals with ease. Try it for consistent results.",
     ],
     imageFirst: true,
   },
   {
-    icon: PawPrint,
-    title: "AI Pet Photo to Cartoon — Cartoon Portraits for Cats & Dogs",
-    subtitle: "Create charming cartoon portraits of your pets",
+    icon: Square,
+    title: "White Background Tool",
+    subtitle: "Create clean white backdrops for your images",
     image: null,
     comparison: { before: petBefore, after: petAfter },
-    imageAlt: "Golden retriever puppy turned into a playful cartoon portrait with AI Photo to Cartoon",
+    imageAlt: "Cartoon image with crisp white background created by free AI background remover",
     paragraphs: [
-      "Generate a cartoon portrait of your pet using AI Photo to Cartoon. Upload a clear photo of your pet and let the tool transform it into a playful cartoon style. This effect brings out your pet's personality in a fun and engaging way. Share your pet's new look created by AI Photo to Cartoon with friends and family.",
+      "This free AI background remover provides a crisp white backdrop for your cartoon portrait, suitable for product listings or professional profiles. Just upload your image, and the tool adjusts the background smoothly for a neat, polished look.",
     ],
     imageFirst: false,
   },
   {
-    icon: Mountain,
-    title: "AI Landscape to Cartoon — Scenic Photos as Cartoon Art",
-    subtitle: "Transform scenic photos into cartoon artwork",
+    icon: Layers,
+    title: "Transparent Background Tool",
+    subtitle: "Export images with clear transparent backgrounds",
     image: null,
     comparison: { before: landscapeBefore, after: landscapeAfter },
-    imageAlt: "Mountain lake scenery converted into vibrant cartoon artwork using AI Photo to Cartoon",
+    imageAlt: "Cartoon portrait with transparent background created by free AI background remover",
     paragraphs: [
-      "Apply a cartoon effect with AI Photo to Cartoon that turns your landscape photos into appealing cartoon images. Upload your favorite scene and watch it become a colorful cartoon portrait. Enjoy a fresh artistic interpretation of your landscapes with AI Photo to Cartoon.",
+      "This free AI background remover creates images with a clear, transparent background for your cartoon portrait. Upload your photo and see the background fade away easily. It's ideal for adding your cartoon avatar to websites or presentations. Explore this free AI background remover to see the effect.",
     ],
     imageFirst: true,
   },
@@ -96,7 +97,7 @@ export function ContentSections({ onSelectStyle }: { onSelectStyle?: (styleIndex
                         beforeSrc={section.comparison.before}
                         afterSrc={section.comparison.after}
                         beforeAlt="Original photo"
-                        afterAlt="Cartoon effect"
+                        afterAlt="Background removed"
                       />
                     ) : (
                       <img

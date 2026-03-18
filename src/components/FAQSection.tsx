@@ -4,32 +4,36 @@ import { cn } from "@/lib/utils";
 
 const faqs = [
   {
-    q: "What is AI Photo to Cartoon?",
-    a: "AI Photo to Cartoon is a technology that transforms your photos into cartoon-style images using artificial intelligence.",
+    q: "What is a free AI background remover?",
+    a: "A free AI background remover is a tool that uses artificial intelligence to remove the background from images, isolating the subject to create clean visuals without manual editing.",
   },
   {
-    q: "How does AI Photo to Cartoon work?",
-    a: "AI Photo to Cartoon uses AI algorithms to analyze your photo and recreate it with cartoon-like features and effects.",
+    q: "How does the free AI background remover handle cartoon-style portraits?",
+    a: "The free AI background remover can process images with a cartoon effect and quickly isolate the subject, simplifying the editing process by removing backgrounds automatically.",
   },
   {
-    q: "Can I use AI Photo to Cartoon for any photo?",
-    a: "AI Photo to Cartoon works best with clear, well-lit photos, but it can be applied to most types of images.",
+    q: "Can the free AI background remover create images with a transparent background?",
+    a: "Yes, the tool can remove the background from images to produce pictures with a transparent background, suitable for various uses like avatars or portraits.",
   },
   {
-    q: "Is AI Photo to Cartoon easy to use?",
-    a: "Yes, AI Photo to Cartoon tools are designed to be user-friendly, allowing you to convert photos into cartoons quickly.",
+    q: "Does the free AI background remover provide options for white backgrounds?",
+    a: "Yes, it can replace backgrounds with a white backdrop, which is useful for product listings or professional profiles by creating a clean and polished look.",
   },
   {
-    q: "Are the results from AI Photo to Cartoon customizable?",
-    a: "Some AI Photo to Cartoon tools offer options to adjust the style or intensity of the cartoon effect.",
+    q: "Is the free AI background remover suitable for different types of images?",
+    a: "The remover is mainly designed for portraits and cartoon-style images, focusing on isolating the subject effectively for clear visuals.",
   },
   {
-    q: "Can AI Photo to Cartoon be used for professional purposes?",
-    a: "AI Photo to Cartoon can be used for various purposes, including personal and creative projects, depending on the quality needed.",
+    q: "What format are images saved in after using the free AI background remover?",
+    a: "Images are typically saved as PNG files with transparent backgrounds to maintain clarity and ease of use in other designs.",
   },
   {
-    q: "Is AI Photo to Cartoon safe to use?",
-    a: "AI Photo to Cartoon services generally prioritize user privacy and data security, but it's good to review each service's policies.",
+    q: "Does the free AI background remover require manual editing after background removal?",
+    a: "No, the tool removes backgrounds automatically, allowing users to get clean results without needing additional manual editing.",
+  },
+  {
+    q: "Can the free AI background remover be used for creating professional-looking images?",
+    a: "Yes, by removing backgrounds and offering transparent or white backgrounds, the tool helps create clean and polished images suitable for professional use.",
   },
 ];
 
