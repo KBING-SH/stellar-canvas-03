@@ -113,10 +113,10 @@ const Index = () => {
               <div className="px-3 py-4 space-y-3">
                 <div className="text-center">
                   <h1 className="text-xl font-bold text-title leading-tight mb-1.5">
-                    Free Online Photo to Cartoon
+                    Free AI Background Remover for Cartoon Images
                   </h1>
                   <p className="text-muted-foreground text-xs leading-relaxed max-w-xs mx-auto">
-                    Upload your photo and Rita AI will generate fun cartoon images in multiple styles. Supports portraits, pets, landscapes and more — simple to use, ready in seconds.
+                    Effortlessly remove backgrounds with this free AI tool. Create clean visuals with white or transparent backgrounds for cartoon portraits and more.
                   </p>
                 </div>
                 <div className="w-full aspect-[16/9] rounded-xl overflow-hidden">
