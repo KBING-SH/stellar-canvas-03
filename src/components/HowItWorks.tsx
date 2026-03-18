@@ -6,20 +6,20 @@ import { StepDownloadAnimation } from "./StepDownloadAnimation";
 const steps = [
   {
     step: "01",
-    title: "Upload Photo",
-    desc: "Drag and drop or click to upload portrait, pet, or landscape photos. Supports PNG / JPG / WEBP, up to 32 MB.",
+    title: "Upload Image",
+    desc: "Drag and drop or click to upload your photo. Supports PNG / JPG / WEBP, up to 20 MB.",
     color: "from-primary to-theme1",
   },
   {
     step: "02",
-    title: "Pick Style · Generate",
-    desc: "Choose your favorite cartoon style and click generate. Rita AI delivers a high-quality cartoon image in seconds.",
+    title: "Choose Background",
+    desc: "Select white or transparent background style, then click Remove Background. The AI processes your image in seconds.",
     color: "from-theme1 to-emerald-400",
   },
   {
     step: "03",
     title: "Download & Share",
-    desc: "Instantly download HD watermark-free images, or share to social platforms with one click to show off your cartoon avatar.",
+    desc: "Instantly download your image with the background removed as a high-quality PNG, ready for use anywhere.",
     color: "from-theme2 to-primary",
   },
 ];
