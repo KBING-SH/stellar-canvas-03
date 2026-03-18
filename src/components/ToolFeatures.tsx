@@ -2,11 +2,11 @@ import { FileImage, Palette, RectangleHorizontal, MonitorUp, Sparkles, Gift } fr
 
 const features = [
   { icon: FileImage, text: "Supports JPG, JPEG, PNG, and WEBP uploads up to 32 MB." },
-  { icon: Palette, text: "Choose from styles such as Ghibli, Pixel, Realistic, Ink Wash, Cartoon, Retro, Cute, and Minimal." },
-  { icon: RectangleHorizontal, text: "Available aspect ratios include Auto, 1:1, 16:9, 9:16, 4:3, 3:4, 2:3, 3:2, 5:4, and 4:5." },
+  { icon: Palette, text: "Remove backgrounds from cartoon portraits and other images automatically." },
+  { icon: RectangleHorizontal, text: "Export with transparent or white backgrounds in PNG format." },
   { icon: MonitorUp, text: "Output resolutions include 1 MP, 2 MP, and 4 MP." },
-  { icon: Sparkles, text: "Custom prompts can be used to guide image style and mood." },
-  { icon: Gift, text: "Claim 60 free credits daily — each generation costs 10 credits." },
+  { icon: Sparkles, text: "Preserves fine details like hair edges and complex outlines." },
+  { icon: Gift, text: "Claim 60 free credits daily — each background removal costs 10 credits." },
 ];
 
 export function ToolFeatures() {
