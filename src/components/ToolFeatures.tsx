@@ -14,7 +14,7 @@ export function ToolFeatures() {
     <section className="py-10 md:py-16 border-b border-border/50" aria-labelledby="tool-features-title">
       <div className="container px-4 md:px-8 max-w-4xl">
         <h2 id="tool-features-title" className="text-xl md:text-2xl font-bold text-title text-center mb-6 md:mb-10">
-          AI Photo to Cartoon — Tool Features
+          Free AI Background Remover — Tool Features
         </h2>
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
           {features.map((f, i) => (
